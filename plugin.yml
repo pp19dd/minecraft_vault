@@ -1,0 +1,13 @@
+name: Minecraft Square
+version: 0.1
+main: com.minecraftsquare.MinecraftSquare
+description: Allows item transactions for a centralized cross-server auction house
+author: pp19dd
+website: http://www.minecraftsquare.com/
+database: false   
+
+commands:
+  square:
+    usage: /square balance
+    description: Displays your minecraft square balance 
+    permission: square.balance     
